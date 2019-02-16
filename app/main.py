@@ -37,7 +37,7 @@ def start():
     """
     TODO: If you intend to have a stateful snake AI,
             initialize your snake state here using the
-            request's data if necessary.
+            request's data if necessary. 
     """
     print(json.dumps(data))
 
