@@ -148,9 +148,7 @@ def move():
             #possibleDirections.append('up')
 
             priorityDirections["up"] += 100 - min(distFoodUp)
-
-
-
+            
     #direction = random.choice(possibleDirections)
     direction = max(priorityDirections.iteritems(), key=operator.itemgetter(1))[0]
 
